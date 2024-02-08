@@ -27,7 +27,7 @@ function ADDTODATABASE(temp_max, pressure, visibility, windspeed, humidity, Temp
 const weatherData = require('../utils/weatherData');
 console.log(weatherData, 'sfsfs')
 const { createConnection } = require("net");
-
+console.log("ok")
 const port = 3000
 
 const publicStaticDirPath = path.join(__dirname, '../public')
